@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
   holder = []
   holiday_hash.each do |key, value|
     value.each do |attribute, data|
-      data.each do |item|
+      attribute.each do |item|
         holder << item
       end
     end
