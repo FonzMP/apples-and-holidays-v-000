@@ -56,7 +56,7 @@ def all_winter_holiday_supplies(holiday_hash)
       value.each do |attribute, data|
         holder << data
     end
-    return all_items
+    return holder
   end
 end
 
