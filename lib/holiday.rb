@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holder = []
   holiday_hash.each do |key, values|
-    
+    puts "#{key}"
   end
 end
 
