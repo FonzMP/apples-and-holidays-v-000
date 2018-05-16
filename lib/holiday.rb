@@ -73,6 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holder = []
   holiday_hash.each do |key, values|
+    key.each do |item|
     return values
   end
 end
