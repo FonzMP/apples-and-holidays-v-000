@@ -75,7 +75,8 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{key.capitalize}:"
     value.each do |season, holiday|
       if season.is_a?(String)
-        word_split = season.split("_").join(" ")
+        word_split = season.split("_")
+        word_split.join(" ")
       end
       puts "  #{season.capitalize}: #{holiday.join(", ")}"
     end
