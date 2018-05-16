@@ -72,16 +72,6 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   holder = []
-  holiday_hash.each do |key, value|
-    value.each do |attribute, data|
-      data.each do |item, list|
-        list.each do |object|
-          holder << object
-        end
-      end
-    end
-    return holder
-  end
 end
 
 def all_holidays_with_bbq(holiday_hash)
