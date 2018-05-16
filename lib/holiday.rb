@@ -86,9 +86,9 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |key, value|
     value.each do |attribute, data|
       data.each do |item|
-      if item == "BBQ"
-        holder << attribute
-      end
+        if item == "BBQ"
+          holder << attribute
+        end
       end
     end
   end
