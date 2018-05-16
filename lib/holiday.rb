@@ -55,6 +55,7 @@ def all_winter_holiday_supplies(holiday_hash)
     if key == :winter
       value.each do |attribute, data|
         holder << data
+      end
     end
     return holder
   end
